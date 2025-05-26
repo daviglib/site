@@ -5,7 +5,7 @@ import Link from './Link'
 import MobileNav from './MobileNav'
 
 const Header = () => {
-  let headerClass = 'w-full bg-white dark:bg-gray-950 py-4 whitespace-nowrap' // Reduzindo o padding vertical
+  let headerClass = 'w-full bg-white dark:bg-[#f4edcf] py-4 whitespace-nowrap' // Reduzindo o padding vertical
   if (siteMetadata.stickyNav) {
     headerClass += ' sticky top-0 z-50'
   }
@@ -37,7 +37,7 @@ const Header = () => {
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="hover:text-primary-500 dark:hover:text-primary-400 m-1 font-medium text-gray-900 dark:text-gray-100"
+                  className="m-1 font-medium text-gray-900 hover:text-[#7c5e3b] dark:hover:text-[#5c4028]"
                 >
                   {link.title}
                 </Link>

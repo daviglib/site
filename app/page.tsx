@@ -44,36 +44,33 @@ export default function SobreOEscritorio() {
   return (
     <section className="pt-0 pb-12">
       {/* Banner com efeito Parallax e largura total */}
-      <div className="relative right-1/2 left-1/2 mr-[-50vw] ml-[-50vw] w-screen max-w-none">
+      {/*<div className="relative right-1/2 left-1/2 mr-[-50vw] ml-[-50vw] w-screen max-w-none">
         <div
           className="relative flex h-[500px] w-full items-center justify-center bg-cover bg-fixed bg-center"
           style={{ backgroundImage: "url('/static/images/balanca.png')" }}
         >
-          <div className="absolute inset-0 z-10 bg-black/60" />
+          <div className="absolute inset-0 z-10" />
           <div className="relative z-20 px-4 text-center">
             <h1 className="text-4xl font-bold text-white drop-shadow-xl sm:text-2xl md:text-3xl">
               Transformamos conhecimento jurídico em segurança para você.
             </h1>
           </div>
         </div>
-      </div>
+      </div>*/}
 
       {/* Seção Sobre o Escritório */}
       <div className="grid grid-cols-1 gap-8 px-4 py-16 sm:grid-cols-2 sm:px-6 lg:px-8">
         <div>
-          <h2
-            id="sobre"
-            className="mb-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-white"
-          >
+          <h2 id="sobre" className="dark mb-4 text-3xl font-bold tracking-tight text-gray-900">
             Sobre o Escritório
           </h2>
-          <p className="mb-4 text-justify text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+          <p className="dark:text-[#4a4034 mb-4 text-justify text-lg leading-relaxed text-gray-700">
             Nosso escritório tem como missão oferecer soluções jurídicas inteligentes e
             estratégicas, garantindo a melhor abordagem para cada caso. Atuamos com excelência na
             prevenção e resolução de conflitos, sempre buscando agilidade, segurança e efetividade
             na defesa dos interesses de nossos clientes.
           </p>
-          <p className="text-justify text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+          <p className="dark:text-[#4a4034 text-justify text-lg leading-relaxed text-gray-700">
             Com uma atuação especializada em Advocacia Extrajudicial, Direito Civil, Direito
             Previdenciário, Demandas na Justiça Federal e Remédios Constitucionais, combinamos
             técnica, inovação e planejamento jurídico personalizado para proporcionar resultados
@@ -82,7 +79,7 @@ export default function SobreOEscritorio() {
         </div>
         <div className="w-full">
           <Image
-            src="/static/images/Imagem_escritorio.jpeg"
+            src="/static/images/Imagem_escritorio.png"
             alt="Imagem do Escritório"
             width={600}
             height={400}
@@ -93,19 +90,17 @@ export default function SobreOEscritorio() {
 
       {/* Áreas de Atuação */}
       <div className="px-4 pb-20 sm:px-6 lg:px-8">
-        <h2 className="mb-8 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">
+        <h2 className="dark: mb-8 text-3xl font-bold tracking-tight text-gray-900">
           Áreas de Atuação
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {areas.map((area) => (
             <div
               key={area.title}
-              className="flex min-h-[160px] flex-col justify-start gap-3 rounded-xl border border-gray-200 bg-white p-6 shadow-sm transition hover:shadow-md dark:border-gray-700 dark:bg-gray-900"
+              className="flex min-h-[160px] flex-col justify-start gap-3 rounded-xl border border-gray-200 bg-[#f2edcf] bg-[#f4edcf] p-6 shadow-sm transition hover:shadow-md dark:border-gray-700"
             >
-              <h3 className="text-base font-bold whitespace-nowrap text-gray-900 dark:text-white">
-                {area.title}
-              </h3>
-              <p className="text-justify text-sm leading-relaxed text-gray-700 dark:text-gray-300">
+              <h3 className="text-base font-bold whitespace-nowrap text-gray-900">{area.title}</h3>
+              <p className="text-justify text-sm leading-relaxed text-gray-700 dark:text-[#172d57]">
                 {area.description}
               </p>
             </div>

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.ronfinigarcia.com.br/
+
+# Sitemaps
+Sitemap: https://www.ronfinigarcia.com.br/sitemap.xml

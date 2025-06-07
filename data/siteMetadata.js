@@ -4,10 +4,10 @@ const siteMetadata = {
   author: 'Ronfini & Garcia',
   headerTitle: '',
   description: 'Ronfini & Garcia Advocacia',
-  language: 'en-us',
+  language: 'pt-BR',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://www.ronfinigarcia.com.br',
+  siteRepo: 'https://github.com/daviglib/site',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   email: 'ronfinigarcia@gmail.com',
@@ -16,7 +16,7 @@ const siteMetadata = {
   whatsapp2: '5521975721515', // Adicionando WhatsApp
   address: 'Rua Exemplo, 123, Bairro, Cidade, Estado, 00000-000', // Adicionando endereço
   instagram: 'https://www.instagram.com',
-  locale: 'en-US',
+  locale: 'pt-BR',
   // set to true if you want a navbar fixed to the top
   stickyNav: false,
   analytics: {
@@ -39,7 +39,7 @@ const siteMetadata = {
       metadata: '0',
       theme: 'light',
       darkTheme: 'transparent_dark',
-      lang: 'en',
+      lang: 'pt',
     },
   },
   search: {

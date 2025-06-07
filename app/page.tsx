@@ -33,6 +33,14 @@ const areas = [
     description:
       'Prestamos assessoria especializada em revisão e concessão de benefícios previdenciários, garantindo que nossos clientes recebam corretamente seus direitos junto ao INSS. Atuamos em processos de aposentadoria, pensão por morte, auxílio-doença, Benefício de Prestação Continuada (BPC/LOAS) e demais benefícios. Além disso, oferecemos suporte jurídico para a revisão de valores pagos e reconhecimento de tempo de contribuição e atividade especial, assegurando uma aposentadoria mais vantajosa para o segurado.',
   },
+
+  {
+    title: 'Direito do Consumidor',
+    description: `Prestamos assessoria jurídica especializada na defesa dos direitos do consumidor, atuando em casos de cobranças indevidas, inscrição irregular em cadastros de inadimplentes, danos por negativação indevida, além de descumprimento de ofertas e vícios em produtos ou serviços.
+  Também lidamos com ações envolvendo cláusulas abusivas em contratos bancários, de telefonia, planos de saúde e instituições de ensino, buscando a revisão contratual e a reparação dos prejuízos sofridos.
+  Nosso trabalho inclui ainda a propositura de ações indenizatórias por danos morais e materiais, sempre com foco na reparação integral do consumidor lesado e na responsabilização dos fornecedores que agem em desacordo com o Código de Defesa do Consumidor.`,
+  },
+
   {
     title: 'Remédios Constitucionais',
     description:
